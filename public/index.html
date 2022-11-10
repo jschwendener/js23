@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="min-h-screen h-full">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./site.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.typekit.net/nie1zfw.css">
+    </head>
+    <body class="bg-gray-500 text-black text-2xl font-normal antialiased min-h-screen h-full">
+        <div class="grid grid-rows-[2rem_1fr] grid-cols-[2rem_1fr] md:grid-rows-[4rem_1fr] md:grid-cols-[4rem_1fr] min-h-screen">
+            <div class="relative z-10 border-b border-r border-gray-400/50 grid place-items-center text-gray-400/50">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="w-5 h-5 md:w-8 md:h-8 animate-pulse drop-shadow-lg">
+                    <path fill="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                </svg>
+            </div>
+            <div class="relative z-10 border-b border-gray-400/50"></div>
+            <div class="relative z-10 border-r border-gray-400/50"></div>
+            <div class="grid place-items-center p-8 md:p-16">
+                <div class="max-w-prose lg:-translate-x-16 lg:-translate-y-16 space-y-8">
+                    <h1 class="text-5xl mb-8 font-bold tracking-tight">
+                        <div class="text-gray-700">Hi, I'm Jonas Schwendener.</div>
+                        <div>I passionately 
+                            <span class="inline-block relative text-stone-300">design <span class="absolute bg-stone-300/20 -inset-x-1 h-1/2 top-1/2 -z-10 rotate-2"></span></span> and 
+                            <span class="inline-block relative text-slate-200">develop <span class="absolute bg-slate-200/20 -inset-x-1 h-1/2 top-1/2 -z-10 rotate-2"></span></span> software for the modern web.</div>
+                    </h1>
+
+                    <div class="w-8 border-t-2 border-gray-600"></div>
+    
+                    <!-- <p class="mb-4">My work includes many web-based projects including small artist portfolios, corporate websites for companies, sports teams and also large scale web applications with integrations to third-party systems and services.</p> -->
+                    <div class="space-y-6">
+                        <div>I'm currently building <a href="https://strawblond.com" rel="noopener" target="_blank" class="font-semibold hover:text-white">StrawBlond&reg;</a>, a cloud-based invoicing and accounting software for swiss SME businesses.</div>
+                        <div>
+                            <p class="mb-2">Some other things I've built in the past include
+                                <a href="https://jobee.trade" rel="noopener" target="_blank" class="font-semibold hover:text-white">Jobee Desktop</a>,
+                                <a href="https://racerfish.com/en/nitrous" rel="noopener" target="_blank" class="font-semibold hover:text-white">Nitrous Evolve CMS</a> and
+                                dozens of websites with <a href="https://racerfish.com" rel="noopener" target="_blank" class="font-semibold hover:text-white">Racerfish</a>, a full-service digital agency.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="flex items-center gap-6">
+                        <a href="mailto:jonas.schwendener@gmail.com" class="inline-block border-2 border-gray-800 hover:border-black hover:bg-black hover:text-white bg-gray-800 text-gray-300 px-12 py-3 text-sm uppercase tracking-wider font-bold">Contact</a>
+                        <a href="https://rarestreetcoffee.ch" target="_blank" rel="noopener" class="inline-block text-gray-300 border-2 border-gray-600 hover:border-black hover:text-black px-12 py-3 text-sm uppercase tracking-wider font-bold">Drop by</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fixed pointer-events-none inset-0 bg-black mix-blend-multiply opacity-75" style="filter: url(#noiseFilter) saturate(0);">
+            <svg>
+                <filter id="noiseFilter">
+                    <feTurbulence 
+                        type="fractalNoise" 
+                        baseFrequency="6.29" 
+                        numOctaves="6" 
+                        stitchTiles="stitch"
+                        />
+                </filter>
+            </svg>
+        </div>
+    </body>
+</html>
