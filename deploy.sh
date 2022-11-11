@@ -1,0 +1,1 @@
+ssh apoxch@apox.ch "cd ~/www/js23 && git pull"
